@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.cartaofrente{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+   
+}
+
+.cartaoverso{
+    position: absolute;
+    top: 55%;
+    left: 20%;
+}
+
+.formulario{
+    position: absolute;
+    left: 25cm;
+    top: 5cm;
+}
+
+.textonocartao{
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    font-family:sans-serif
+}
