@@ -1,32 +1,66 @@
-body{
-    background-color: rgb(255, 255, 255);
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-family: "Space Grotesk";
 }
 
-.cartaofrente{
-    position: absolute;
-    top: 20%;
-    left: 15%;
-   
+.cartaofrente {
+  position: absolute;
+  top: 20%;
+  left: 15%;
 }
 
-.cartaoverso{
-    position: absolute;
-    top: 55%;
-    left: 20%;
+.cartaoverso {
+  position: absolute;
+  top: 55%;
+  left: 20%;
 }
 
-.formulario{
-    position: absolute;
-    left: 25cm;
-    top: 5cm;
+.container {
+  position: absolute;
+  left: 25cm;
+  top: 5cm;
+  box-sizing: border-box;
 }
 
-.textonocartao{
-    position: absolute;
-    left: 10%;
-    top: 50%;
-    width: 20%;
-    color: rgb(255, 255, 255);
-    font-size: 28px;
-    font-family:sans-serif
+.textonocartao {
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  width: 20%;
+  color: rgb(255, 255, 255);
+}
+
+input {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+input#day {
+  width: 10%;
+}
+
+.form-control {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.form-control input {
+  border: 2px solid;
+}
+
+.form button {
+  background-color: rgb(40, 33, 58);
+  border: 2px solid rgb(40, 33, 58);
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  font-size: 18px;
+  width: 80%;
+  padding: 10px;
 }

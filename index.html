@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cartão Interativo</title>
-    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <script type="text/javascript" src="script/script.js"></script>
-    
-</head>
-<body>
-    
-    <img src="imagens/bg-main-desktop.png" alt="imagem azul de fundo">
-    
+  </head>
+  <body>
+    <div class="container">
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">CARDHOLDER NAME</label><br />
+          <input type="text" id="username" placeholder="e.g. Jane Appleseed" />
+        </div>
+
+        <div class="form-control">
+          <label for="number">CARD NUMBER</label><br />
+          <input
+            type="text"
+            id="number"
+            placeholder="e.g. 1234 5678 9123 0000"
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="day">EXP. DATE (MM,YY)</label>
+          <label for="cvc">CVC</label><br />
+          <input type="text" id="day" />
+          <input type="text" id="day" />
+          <input type="text" id="cvc" />
+        </div>
+
+        <button class="" type="submit">Confirm</button>
+      </form>
+    </div>
+    <img src="imagens/bg-main-desktop.png" alt="imagem azul de fundo" />
+
     <div class="cartaofrente">
-        <img src="imagens/bg-card-front.png">
-        <h3 class="textonocartao" id="digito"></h3>
+      <img src="imagens/bg-card-front.png" />
+      <h3 class="textonocartao" id="digito"></h3>
     </div>
 
     <div class="cartaoverso">
-        <img src="imagens/bg-card-back.png" alt="verso do cartão">
+      <img src="imagens/bg-card-back.png" alt="verso do cartão" />
     </div>
-
-    <div class="formulario">
-            <input type="text" name="valor" id="valor">
-            <input type="submit" name="" onclick="chamar()">
-
-    </div>
-
-</body>
+  </body>
 </html>
