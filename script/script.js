@@ -1,5 +1,5 @@
-var captar = "";
-    function chamar(1){
-    captar = document.getElementById('valor').value;
-    document.getElementById('digito').innerHTML = captar;
-}
+var input = document.getElementById("#number");
+var div = document.getElementById("digito");
+input.addEventListener("keyup", function () {
+  div.innerHTML = input.value;
+});
