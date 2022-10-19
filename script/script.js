@@ -1,6 +1,8 @@
-var input = document.getElementById("#number");
-var div = document.getElementById("digito");
+function getValues() {
+  let nome = $("#username").val();
+  let num = $("#number").val();
+  let valid = $("#validade").val();
+  let cvc = $("#cvc").val();
 
-input.addEventListener("keyup", function () {
-  div.innerHTML = input.value;
-});
+  $(".cartaofrente").html(nome + " - " + valid + cvc);
+}
