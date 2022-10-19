@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
   </head>
@@ -57,18 +57,27 @@
         <button class="" type="submit">Confirm</button>
       </form>
     </div>
-    <img src="imagens/bg-main-desktop.png" alt="imagem azul de fundo" />
+    <img
+      class="fundo"
+      src="imagens/bg-main-desktop.png"
+      alt="imagem azul de fundo"
+    />
 
     <div class="cartaofrente">
-      <img src="imagens/bg-card-front.png" />
-      <h3 class="nomefrente" id="nome">seu nome aqui</h3>
-      <h3 class="numfrente" id="num">000 000 000 000</h3>
+      <img class="card" src="imagens/bg-card-front.png" style="height: 80%" />
+      <h3 class="nomefrente" id="nome">JANE APLESEED</h3>
+      <h3 class="numfrente" id="num">0000 0000 0000 0000</h3>
+      <h3 class="valverso" id="val">00/00</h3>
     </div>
 
     <div class="cartaoverso">
-      <img src="imagens/bg-card-back.png" alt="verso do cartão" />
-      <h3 class="cvcverso" id="codigo">123</h3>
-      <h3 class="valverso" id="val">12/2022</h3>
+      <img
+        class="cardverso"
+        src="imagens/bg-card-back.png"
+        alt="verso do cartão"
+        style="height: 80%"
+      />
+      <h3 class="cvcverso" id="codigo">000</h3>
     </div>
     <script>
       function mostraNome(nome) {
