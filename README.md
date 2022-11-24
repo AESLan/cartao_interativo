@@ -1,6 +1,6 @@
-## Projeto de um cartão de crédito interativo: 
-## O usuário entra com os dados fictícios de um cartão de crédito.
-## Apenas para visualização do cartão pronto.
+## Projeto cartão de crédito interativo: 
+## Nesse projeto o usuário entra com os dados fictícios de um cartão de crédito, 
+## e obtem ao lado a visualização do cartão pronto.
 
  Deploy: https://alex-rodriguess.github.io/cartao_interativo/
  
